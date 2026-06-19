@@ -1,4 +1,4 @@
-import HeroImage from "/assets/hero-img.webp";
+import HeroImage from "/assets/alfa.png";
 
 const Image = {
   HeroImage,
@@ -17,6 +17,8 @@ import Tools8 from "/assets/tools/github.png";
 import Tools9 from "/assets/tools/ai.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
+import Tools12 from "/assets/tools/laravel.png";
+
 
 export const listTools = [
   {
@@ -33,13 +35,13 @@ export const listTools = [
     ket: "Framework",
     dad: "200",
   },
-  {
-    id: 3,
-    gambar: Tools3,
-    nama: "Next JS",
-    ket: "Framework",
-    dad: "300",
-  },
+  // {
+  //   id: 3,
+  //   gambar: Tools3,
+  //   nama: "Next JS",
+  //   ket: "Framework",
+  //   dad: "300",
+  // },
   {
     id: 4,
     gambar: Tools4,
@@ -77,9 +79,9 @@ export const listTools = [
   },
   {
     id: 9,
-    gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
+    gambar: Tools12,
+    nama: "Laravel",
+    ket: "Languange",
     dad: "900",
   },
   {
@@ -104,54 +106,58 @@ import Proyek3 from "/assets/proyek/proyek3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek7 from "/assets/proyek/proyek7.jpeg";
+import Proyek8 from "/assets/proyek/proyek8.jpeg";
+import Proyek9 from "/assets/proyek/proyek9.jpeg";
+
 
 export const listProyek = [
   {
     id: 1,
-    gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
+    gambar: Proyek7,
+    nama: "Website Klinik Gigi Permata",
+    // desk: "Website ini saya buat pada saat saya semester 4,",
+    tools: ["Vite", "ReactJS", "TailwindCSS"],
     dad: "200",
   },
   {
     id: 2,
-    gambar: Proyek2,
-    nama: "Company Profile",
+    gambar: Proyek8,
+    nama: "Tampilan Admin Bina Desa",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
+    tools: ["HTML", "CSS", "Javascript", "Laravel"],
     dad: "300",
   },
   {
     id: 3,
-    gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
+    gambar: Proyek9,
+    nama: "Prototype Website kampus 'LombaHub' ",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    tools: ["Figma", "Canva"],
     dad: "400",
   },
-  {
-    id: 4,
-    gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
-    dad: "500",
-  },
-  {
-    id: 5,
-    gambar: Proyek5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
-    dad: "600",
-  },
-  {
-    id: 6,
-    gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    dad: "700",
-  },
+  // {
+  //   id: 4,
+  //   gambar: Proyek4,
+  //   nama: "Website Course",
+  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+  //   tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
+  //   dad: "500",
+  // },
+  // {
+  //   id: 5,
+  //   gambar: Proyek5,
+  //   nama: "Web Portfolio",
+  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+  //   tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
+  //   dad: "600",
+  // },
+  // {
+  //   id: 6,
+  //   gambar: Proyek6,
+  //   nama: "Company Profile 2.0",
+  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+  //   tools: ["NextJS", "TailwindCSS", "Framermotion"],
+  //   dad: "700",
+  // },
 ];

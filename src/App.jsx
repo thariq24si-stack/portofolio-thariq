@@ -6,14 +6,14 @@ function App() {
     <>
       <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-10 gap-6 grid-cols-1">
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
-          <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
+          {/* <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img
               src={DataImage.HeroImage}
               alt="Hero Image"
               className="w-10 rounded-md" loading="lazy"
             />
-            <q>kode asu😂</q>
-          </div>
+            <q> </q>
+          </div> */}
           <h1 className="text-5xl/tight font-bold mb-6">
             Hi, saya Thariq Alfayyadh
           </h1>
@@ -21,7 +21,7 @@ function App() {
             Saya mempunyai ketertarikan dalam bidang Programming dan Designer,
             terutama pada pembuatan Website dan Desain seperti Poster, Pamflet
             serta Banner, ketertarikan pada bidang ini sudah berlangsung lebih
-            dari 4 Tahun untuk semua Bidang.
+            dari sejak saya berada di SMK.
           </p>
           <div className="flex items-center gap-4">
             <a
@@ -49,12 +49,7 @@ function App() {
       <div className="tentang mt-32 py-10" id="tentang">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <p className="text-base/loose mb-10">
-            Hi, perkenalkan saya Thariq Alfayyadh, seorang Full Stack Web
-            Developer dan Designer untuk UI/UX Design maupun Product Digital,
-            Saya percaya bahwa desain dan fungsionalitas harus berjalan
-            beriringan, sehingga setiap proyek yang saya kembangkan tidak hanya
-            terlihat menarik tetapi juga memberikan pengalaman pengguna yang
-            optimal.
+            Hi, perkenalkan saya Thariq Alfayyadh, seorang mahasiswa dengan program studi Sistem Informasi di Politeknik Caltex Riau.
           </p>
           <div className="flex items-center justify-between">
             <img
